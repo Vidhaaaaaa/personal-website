@@ -19,6 +19,7 @@ html {
 .info-hero-container {
   height: 100%;
   width: 700px;
+  margin-left: -60px;
 }
 
 /* NAV BAR */
