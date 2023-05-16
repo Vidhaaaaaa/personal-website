@@ -16,13 +16,17 @@ html {
     background-size: cover;
 }
 
+.info-hero-container {
+  height: 100%;
+  width: 700px;
+}
 
 /* NAV BAR */
 
 .nav-main {
-    height: 30px;
+    height: 95px;
     width: 100%;
-    background: transparent;
+    background: black;
     position: fixed;
     top: 0;
     left: 0;
@@ -129,6 +133,7 @@ html {
     font-size: 18px;
     margin-left: 2px;
     margin-top: 2px;
+    margin-bottom: 30px;
     color: white ;
   }
   
@@ -137,6 +142,8 @@ html {
   .footer {
     float: right;
     margin-right: 20px;
+    align-items: right;
+    width: 100%;
   }
   
   button {
