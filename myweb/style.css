@@ -1,7 +1,6 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@200&display=swap");
 
 /* HTML */
 
@@ -11,14 +10,12 @@
 
 body,
 html {
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-    width: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  width: 100%;
 }
-
-
 
 /* NAV BAR */
 
@@ -67,15 +64,13 @@ html {
   margin-right: 30px;
 }
 
-
-
 /* BIG NAME */
 
 .big-name-div {
   position: relative;
   color: white;
   font-weight: bold;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 70px;
   letter-spacing: 3px;
   overflow: hidden;
@@ -83,10 +78,9 @@ html {
   white-space: nowrap;
   animation: typewriter 4s steps(44) 1s 1 normal both,
     blinkTextCursor 500ms infinite;
-  margin-top: 250px;
-  margin-left: 100px;
+  margin-top: 210px;
+  margin-left: 170px;
   width: 600px;
-  
 }
 
 @keyframes typewriter {
@@ -106,30 +100,25 @@ html {
   }
 }
 
-
-
 /* INFO ABOUT ME BELOW MY NAME */
 
 .info-div {
- color: white;
- font-size: 20px;
- font-family: 'Poppins', sans-serif;
- margin-left: 100px;
- margin-top: 35px;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 170px;
+  margin-top: 40px;
 }
-
 
 /* LANGUAGE ICONS */
 
 .info-container {
   display: flex;
-  height:32px;
+  height: 32px;
   width: 300px;
   justify-content: space-between;
-  margin-left: 200px;
+  margin-left: 40px;
 }
-
-
 
 /* COPYRIGHT */
 #copyright {
@@ -137,8 +126,7 @@ html {
   margin-left: 2px;
   margin-top: 20px;
   font-weight: bold;
-  color: white ;
-
+  color: white;
 }
 
 /* OPENLY HOSTED */
@@ -147,7 +135,7 @@ html {
   font-size: 10px;
   margin-left: 2px;
   margin-top: 2px;
-  color: white ;
+  color: white;
 }
 
 /* FOOTER */
